@@ -77,6 +77,7 @@ class Student
     SQL
 
     DB[:conn].execute(sql, limit)
+  end
 
 
 end
