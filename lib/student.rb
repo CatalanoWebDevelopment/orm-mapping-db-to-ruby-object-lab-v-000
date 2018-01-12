@@ -97,5 +97,6 @@ class Student
     SQL
 
     DB[:conn].execute(sql, grade)
+  end
 
 end
